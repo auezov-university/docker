@@ -26,8 +26,20 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./app:/var/www
+      - ./php-worker/supervisord.d:/etc/supervisord.d
     ports:
       - "9000:9000"
+    networks:
+      - app-networks
+
+  php-worker:
+    build:
+      context: ./php-worker
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/var/www
+      - ./php-worker/supervisord.d:/etc/supervisor/supervisord.d
+      - ./logs/supervisor:/etc/supervisor/logs
     networks:
       - app-networks
 
