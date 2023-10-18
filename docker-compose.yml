@@ -61,3 +61,32 @@ services:
       - mysql
     networks:
       - app-networks
+
+  redis:
+    build:
+      context: ./redis
+      dockerfile: Dockerfile
+    volumes:
+      - ~/.auezov-docker/redis:/data
+    command: --requirepass docker
+    ports:
+      - "6379:6379"
+    networks:
+      - app-networks
+
+  redis-webui:
+    build:
+      context: ./redis-webui
+      dockerfile: Dockerfile
+    environment:
+      - ADMIN_USER=docker
+      - ADMIN_PASS=docker
+      - REDIS_1_HOST=redis
+      - REDIS_1_PORT=6379
+      - REDIS_1_AUTH=docker
+    ports:
+      - "8082:80"
+    depends_on:
+      - redis
+    networks:
+      - app-networks
