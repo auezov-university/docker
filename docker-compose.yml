@@ -15,8 +15,8 @@ services:
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./logs/nginx:/var/log/nginx
     ports:
-      - "8080:80"
-      - "4433:443"
+      - "80:80"
+      - "443:443"
     depends_on:
       - php-fpm
     networks:
@@ -29,6 +29,39 @@ services:
     volumes:
       - ./app:/var/www
     ports:
-      - "9000"
+      - "9000:9000"
+    networks:
+      - app-networks
+
+  mysql:
+    build:
+      context: ./mysql
+      dockerfile: Dockerfile
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - ~/.auezov-docker/mysql:/var/lib/mysql
+      - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      - ./logs/mysql:/var/log/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - app-networks
+
+  phpmyadmin:
+    build:
+      context: ./phpmyadmin
+      dockerfile: Dockerfile
+    environment:
+      - PMA_ARBITRARY=1
+      - MYSQL_ROOT_PASSWORD=root
+      - MAX_EXECUTION_TIME=600
+      - MEMORY_LIMIT=256M
+      - UPLOAD_LIMIT=2G
+    ports:
+      - "8081:80"
+    depends_on:
+      - mysql
     networks:
       - app-networks
