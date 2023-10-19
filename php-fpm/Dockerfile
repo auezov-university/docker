@@ -4,6 +4,9 @@ COPY ./php.ini /usr/local/etc/php/conf.d
 COPY ./www.pool.conf /usr/local/etc/php-fpm.d
 COPY ./opcache.ini /usr/local/etc/php/conf.d/opcache.ini
 
+COPY ./supervisord.d /etc/supervisor/conf.d
+COPY ./entrypoint.sh /etc/supervisor/entrypoint.sh
+
 RUN apt-get update && apt-get install -y \
     libfreetype-dev \
     libjpeg62-turbo-dev \
@@ -45,6 +48,14 @@ RUN apt-get install -yqq jpegoptim optipng pngquant gifsicle && \
 RUN pecl install -o -f redis \
     && rm -rf /tmp/pear \
     && docker-php-ext-enable redis
+
+RUN apt-get update && apt-get install -y supervisor
+
+RUN mkdir -p "/var/log/supervisor"
+RUN mkdir -p "/var/log/worker"
+
+ENTRYPOINT ["/usr/bin/supervisord", "-n", "-c",  "/etc/supervisor/supervisord.conf"]
+ENTRYPOINT ["/etc/supervisor/entrypoint.sh"]
 
 WORKDIR /var/www
 
