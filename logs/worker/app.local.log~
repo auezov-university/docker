@@ -1,0 +1,148 @@
+  2023-10-19 07:58:01 App\Jobs\DefaultJob  2023-10-19 07:58:01 App\Jobs\DefaultJob  2023-10-19 07:58:01 App\Jobs\DefaultJob  2023-10-19 07:58:01 App\Jobs\DefaultJob ............................ ............................ ............................ ............................ RUNNING
+ RUNNING
+ RUNNING
+ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+"1" // app/Jobs/DefaultJob.php:31
+"1" // app/Jobs/DefaultJob.php:31
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:58:05 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:58:05 App\Jobs\DefaultJob  2023-10-19 07:58:05 App\Jobs\DefaultJob ............................ ............................ RUNNING
+ RUNNING
+  2023-10-19 07:58:05 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+"1" // app/Jobs/DefaultJob.php:31
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:58:06 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:58:07 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:58:07 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:59:31 App\Jobs\DefaultJob ............................ RUNNING
+  2023-10-19 07:59:31 App\Jobs\DefaultJob ....................... 20.82ms FAIL
+  2023-10-19 07:59:31 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#712 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:59:31 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:59:31 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:59:34 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:59:35 App\Jobs\DefaultJob ............................ RUNNING
+  2023-10-19 07:59:35 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:59:36 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:59:36 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:59:37 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 07:59:37 App\Jobs\DefaultJob ............................ RUNNING
+Illuminate\Database\Eloquent\Collection {#656 // app/Jobs/DefaultJob.php:31
+  #items: []
+  #escapeWhenCastingToString: false
+}
+"1" // app/Jobs/DefaultJob.php:31
+  2023-10-19 08:01:02 App\Jobs\DefaultJob ............................ RUNNING
+  2023-10-19 08:01:02 App\Jobs\DefaultJob ............................  2023-10-19 08:01:02 App\Jobs\DefaultJob RUNNING
+ ............................ RUNNING
+  2023-10-19 08:01:02 App\Jobs\DefaultJob ....................... 15.91ms FAIL
+  2023-10-19 08:01:02 App\Jobs\DefaultJob ....................... 28.27ms FAIL
+  2023-10-19 08:01:02 App\Jobs\DefaultJob ....................... 29.56ms FAIL
+  2023-10-19 08:01:05 App\Jobs\DefaultJob ............................ RUNNING
+  2023-10-19 08:01:05 App\Jobs\DefaultJob ....................... 13.79ms FAIL
+  2023-10-19 08:01:05 App\Jobs\DefaultJob ............................ RUNNING
+  2023-10-19 08:01:05 App\Jobs\DefaultJob ............................ RUNNING
+  2023-10-19 08:01:05 App\Jobs\DefaultJob ....................... 18.39ms FAIL
+  2023-10-19 08:01:05 App\Jobs\DefaultJob ....................... 18.65ms FAIL
+  2023-10-19 08:01:08 App\Jobs\DefaultJob ............................ RUNNING
+  2023-10-19 08:01:08 App\Jobs\DefaultJob ............................ RUNNING
+  2023-10-19 08:01:08 App\Jobs\DefaultJob ....................... 20.25ms FAIL
+  2023-10-19 08:01:08 App\Jobs\DefaultJob ....................... 18.04ms FAIL
+  2023-10-19 08:01:08 App\Jobs\DefaultJob  2023-10-19 08:01:08 App\Jobs\DefaultJob ............................ ............................ RUNNING
+ RUNNING
+  2023-10-19 08:01:08 App\Jobs\DefaultJob  2023-10-19 08:01:08 App\Jobs\DefaultJob ....................... ....................... 20.41ms 20.41ms FAIL
+ FAIL

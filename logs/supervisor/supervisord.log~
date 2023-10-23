@@ -1,0 +1,106 @@
+2023-10-19 05:33:55,223 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-19 05:33:55,224 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2023-10-19 05:33:55,231 INFO RPC interface 'supervisor' initialized
+2023-10-19 05:33:55,231 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-10-19 05:33:55,232 INFO daemonizing the supervisord process
+2023-10-19 05:33:55,232 INFO supervisord started with pid 17
+2023-10-19 05:37:26,941 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-19 05:37:26,941 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2023-10-19 05:37:26,941 INFO RPC interface 'supervisor' initialized
+2023-10-19 05:37:26,941 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-10-19 05:37:26,941 INFO supervisord started with pid 17
+2023-10-19 07:42:58,879 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-19 07:42:58,887 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2023-10-19 07:42:58,913 INFO RPC interface 'supervisor' initialized
+2023-10-19 07:42:58,913 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-10-19 07:42:58,914 INFO supervisord started with pid 16
+2023-10-19 07:43:33,837 WARN received SIGINT indicating exit request
+2023-10-19 07:57:58,719 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-19 07:57:58,720 INFO Included extra file "/etc/supervisor/conf.d/app.local.conf" during parsing
+2023-10-19 07:57:58,724 INFO RPC interface 'supervisor' initialized
+2023-10-19 07:57:58,724 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-10-19 07:57:58,726 INFO daemonizing the supervisord process
+2023-10-19 07:57:58,726 INFO supervisord started with pid 25
+2023-10-19 07:57:59,734 INFO spawned: 'app.local_00' with pid 28
+2023-10-19 07:57:59,738 INFO spawned: 'app.local_01' with pid 29
+2023-10-19 07:57:59,739 INFO spawned: 'app.local_02' with pid 30
+2023-10-19 07:57:59,740 INFO spawned: 'app.local_03' with pid 31
+2023-10-19 07:58:00,742 INFO success: app.local_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:00,742 INFO success: app.local_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:00,742 INFO success: app.local_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:00,742 INFO success: app.local_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:02,752 WARN exited: app.local_00 (exit status 1; not expected)
+2023-10-19 07:58:02,753 WARN exited: app.local_01 (exit status 1; not expected)
+2023-10-19 07:58:02,753 WARN exited: app.local_02 (exit status 1; not expected)
+2023-10-19 07:58:02,753 WARN exited: app.local_03 (exit status 1; not expected)
+2023-10-19 07:58:03,759 INFO spawned: 'app.local_00' with pid 52
+2023-10-19 07:58:03,772 INFO spawned: 'app.local_01' with pid 53
+2023-10-19 07:58:03,781 INFO spawned: 'app.local_02' with pid 54
+2023-10-19 07:58:03,794 INFO spawned: 'app.local_03' with pid 55
+2023-10-19 07:58:05,060 INFO success: app.local_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:05,060 INFO success: app.local_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:05,060 INFO success: app.local_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:05,060 INFO success: app.local_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:05,838 WARN exited: app.local_00 (exit status 1; not expected)
+2023-10-19 07:58:05,839 INFO spawned: 'app.local_00' with pid 73
+2023-10-19 07:58:06,844 INFO success: app.local_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:06,845 WARN exited: app.local_01 (exit status 1; not expected)
+2023-10-19 07:58:06,845 WARN exited: app.local_02 (exit status 1; not expected)
+2023-10-19 07:58:06,845 WARN exited: app.local_03 (exit status 1; not expected)
+2023-10-19 07:58:06,846 INFO spawned: 'app.local_01' with pid 78
+2023-10-19 07:58:06,849 INFO spawned: 'app.local_02' with pid 79
+2023-10-19 07:58:06,851 INFO spawned: 'app.local_03' with pid 80
+2023-10-19 07:58:07,177 WARN exited: app.local_00 (exit status 1; not expected)
+2023-10-19 07:58:07,179 INFO spawned: 'app.local_00' with pid 93
+2023-10-19 07:58:07,205 WARN exited: app.local_03 (exit status 1; not expected)
+2023-10-19 07:58:07,612 WARN exited: app.local_01 (exit status 1; not expected)
+2023-10-19 07:58:08,617 INFO success: app.local_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:08,618 INFO spawned: 'app.local_01' with pid 99
+2023-10-19 07:58:08,618 INFO success: app.local_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:08,620 INFO spawned: 'app.local_03' with pid 100
+2023-10-19 07:58:09,622 INFO success: app.local_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:58:09,622 INFO success: app.local_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:59:31,519 WARN exited: app.local_02 (exit status 1; not expected)
+2023-10-19 07:59:31,520 INFO spawned: 'app.local_02' with pid 115
+2023-10-19 07:59:31,656 WARN exited: app.local_00 (exit status 1; not expected)
+2023-10-19 07:59:31,657 INFO spawned: 'app.local_00' with pid 120
+2023-10-19 07:59:32,662 INFO success: app.local_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:59:32,662 INFO success: app.local_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:59:32,662 WARN exited: app.local_02 (exit status 1; not expected)
+2023-10-19 07:59:33,668 INFO spawned: 'app.local_02' with pid 125
+2023-10-19 07:59:34,670 INFO success: app.local_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:59:35,817 WARN exited: app.local_00 (exit status 1; not expected)
+2023-10-19 07:59:35,929 INFO spawned: 'app.local_00' with pid 130
+2023-10-19 07:59:36,061 WARN exited: app.local_01 (exit status 1; not expected)
+2023-10-19 07:59:36,062 WARN exited: app.local_03 (exit status 1; not expected)
+2023-10-19 07:59:36,063 INFO spawned: 'app.local_01' with pid 135
+2023-10-19 07:59:36,064 INFO spawned: 'app.local_03' with pid 136
+2023-10-19 07:59:36,197 WARN exited: app.local_00 (exit status 1; not expected)
+2023-10-19 07:59:37,203 INFO spawned: 'app.local_00' with pid 145
+2023-10-19 07:59:37,204 INFO success: app.local_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:59:37,204 INFO success: app.local_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:59:37,204 WARN exited: app.local_03 (exit status 1; not expected)
+2023-10-19 07:59:37,361 INFO spawned: 'app.local_03' with pid 150
+2023-10-19 07:59:37,506 WARN exited: app.local_00 (exit status 1; not expected)
+2023-10-19 07:59:38,515 INFO success: app.local_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:59:38,515 WARN exited: app.local_03 (exit status 1; not expected)
+2023-10-19 07:59:39,520 INFO spawned: 'app.local_00' with pid 155
+2023-10-19 07:59:39,522 INFO spawned: 'app.local_03' with pid 156
+2023-10-19 07:59:40,524 INFO success: app.local_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:59:40,524 INFO success: app.local_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 07:59:56,561 INFO waiting for app.local_00 to stop
+2023-10-19 07:59:56,561 INFO waiting for app.local_01 to stop
+2023-10-19 07:59:56,561 INFO waiting for app.local_02 to stop
+2023-10-19 07:59:56,561 INFO waiting for app.local_03 to stop
+2023-10-19 07:59:56,565 WARN stopped: app.local_02 (terminated by SIGTERM)
+2023-10-19 07:59:56,565 WARN stopped: app.local_01 (terminated by SIGTERM)
+2023-10-19 07:59:56,565 WARN stopped: app.local_00 (terminated by SIGTERM)
+2023-10-19 07:59:56,565 WARN stopped: app.local_03 (terminated by SIGTERM)
+2023-10-19 08:00:20,484 INFO spawned: 'app.local_00' with pid 169
+2023-10-19 08:00:20,485 INFO spawned: 'app.local_01' with pid 170
+2023-10-19 08:00:20,487 INFO spawned: 'app.local_02' with pid 171
+2023-10-19 08:00:20,488 INFO spawned: 'app.local_03' with pid 172
+2023-10-19 08:00:21,490 INFO success: app.local_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 08:00:21,490 INFO success: app.local_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 08:00:21,491 INFO success: app.local_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-19 08:00:21,491 INFO success: app.local_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
