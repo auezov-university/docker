@@ -54,7 +54,8 @@ RUN apt-get update && apt-get install -y supervisor
 RUN mkdir -p "/var/log/supervisor"
 RUN mkdir -p "/var/log/worker"
 
-ENTRYPOINT ["/usr/bin/supervisord", "-n", "-c",  "/etc/supervisor/supervisord.conf"]
+CMD ["/usr/bin/supervisord"]
+#ENTRYPOINT ["/usr/bin/supervisord", "-n", "-c",  "/etc/supervisor/supervisord.conf"]
 ENTRYPOINT ["/etc/supervisor/entrypoint.sh"]
 
 WORKDIR /var/www
